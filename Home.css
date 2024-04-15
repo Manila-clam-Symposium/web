@@ -1,0 +1,222 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e2c7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li a:hover:not(active)
+{
+    background: linear-gradient(to bottom right, #868484 0%, #868484 100%);
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    align-items: center; /* vertically center the content */
+    width: 70%;
+    text-align: center;
+    padding: 50px 50px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+    justify-content: center; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    margin-top: 4%;
+    margin-left: 0%;
+   
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+   
+}
+
+h3 {
+    text-align: left;
+    max-width: 60%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+   
+}
+
+h4 {
+    margin-left: 20%;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+   
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures the image is centered horizontally */
+    margin: 0 auto; /* Centers the image horizontally */
+    margin-top: 20px; /* Add some space between the text and the image */
+}
+
+.content {
+    display: flex;
+}
+
+.organizers {
+    flex: 1;
+    padding-right: 10px; /* Add some spacing between sections */
+}
+
+.sponsors {
+    flex: 1;
+    padding-left: 10px; /* Add some spacing between sections */
+}
+
+.organizer, .sponsor {
+    margin-bottom: 20px; /* Add some spacing between each organizer/sponsor */
+}
+
+.sponsor img, .organizer img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensure the image is centered horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 10px; /* Add some spacing between the text and the image */
+    
+}
+
+p {
+    text-align: justify; /* Justify the text */
+    font-size: 24px; /* Increase font size */
+    font-family: Arial, sans-serif;
+    line-height: 1.5; /* Set line spacing to 1.5 */
+    max-width: 60%; /* Optional: Set maximum width to prevent overly wide paragraphs */
+    margin: 0 auto; /* Center the paragraph horizontally */
+}
+
+p4 {
+    text-align: center; /* Justify the text */
+    font-size: 16px; /* Increase font size */
+    font-family: Arial, sans-serif;
+    line-height: 2.0; /* Set line spacing to 1.5 */
+    max-width: 60%; /* Optional: Set maximum width to prevent overly wide paragraphs */
+    margin: 0 auto; /* Center the paragraph horizontally */
+}
+
+
+p3 {
+    text-align: justify; /* Justify the text */
+    font-size: 24px; /* Increase font size */
+    font-family: Arial, sans-serif;
+    line-height: 2.0; /* Set line spacing to 1.5 */
+    max-width: 60%; /* Optional: Set maximum width to prevent overly wide paragraphs */
+    margin: 0 auto; /* Center the paragraph horizontally */
+}
+
+p2 {
+    text-align: left; /* Justify the text */
+    font-size: 28px; /* Increase font size */
+    font-family: Arial, sans-serif;
+    line-height: 1.0; /* Set line spacing to 1.5 */
+    max-width: 60%; /* Optional: Set maximum width to prevent overly wide paragraphs */
+    
+}
+
+.banner {
+    background-image: url('banner.jpg'); /* Replace 'banner.jpg' with your actual banner image */
+    background-size: cover;
+    text-align: center;
+    padding: 0px 0;
+    color: #fff;
+}
+
+
+.marquee {
+    font-size:50px; /* Increase font size */
+    color: rgb(255, 85, 0); /* Set text color */
+    animation: marquee-scroll 20s linear infinite; /* Animation properties */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: -1%;
+}
+
+  
+.image1{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+  
+}
+
+
+.content {
+    padding: 20px;
+}
+.paragraph {
+   margin:0%;
+   margin-top: 24%;
+  
+ }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    
+}
+
+.footer-left {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.footer-right {
+    width: 50%;
+    margin-right: 10%;
+}
+
+/* Adjust the width of the iframe as needed */
+iframe {
+    width: 400px; /* Example width */
+    height: 250px; /* Example height */
+   
+}
+
